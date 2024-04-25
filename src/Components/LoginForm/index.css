@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.input-el {
+  height: 30px;
+  width: 300px;
+  border-radius: 8px;
+  border-color: grey;
+  font-size: 16px;
+}
+.nxt-img {
+  height: 70px;
+  width: 90px;
+}
+.form-container {
+  padding: 6px;
+}
+.text {
+  margin-bottom: 4px;
+}
+.show-password-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+}
+.submit-btn {
+  border: none;
+  background-color: cornflowerblue;
+  height: 30px;
+  width: 300px;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.error-msg {
+  color: red;
+}
